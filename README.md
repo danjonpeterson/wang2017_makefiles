@@ -22,7 +22,7 @@ for "Method 2" the command-line call was:
 >antsApplyTransforms -d 3 -e 3 -i dti/mc_dti_geomCorrected.nii.gz -o mc_dti_unwarped_small.nii.gz -t B0toT1SmallWarp1Warp.nii.gz -t B0toT1SmallWarp0GenericAffine.mat -r T1_robex_restore.nii.gz
 
 
-Folks looking to apply this method should take a look at **qsiprep**, which is a fully supported diffusion image processing pipeline, which implements an improved version of the method described in our paper.
+Folks looking to apply this method should take a look at **qsiprep**, a full diffusion image processing pipeline, which implements an improved version of the method described in our paper.
 
 [LINK TO QSIPREP](https://github.com/pennbbl/qsiprep)
 
